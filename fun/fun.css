@@ -1,0 +1,265 @@
+.parent {
+    width: 300px;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #084d68, #009688);
+    margin: auto;
+    margin-top: 5%;
+    position: relative;
+}
+.showbox{
+    position: relative;
+    width: 100%;
+    /* background: black; */
+    height: 126px;
+}
+.output{
+    /* width: 100%; */
+    /* background: green; */
+    font-size: 20px;
+    /* background-color: #46265c;
+    color: #d5ab9c; */
+    margin: 6% 27% 7% 27%;
+    text-align: center;
+    height: auto;
+    /* padding: 3px; */
+    /* height: 80px; */
+    border-radius: 12px;
+    /* padd: 5%; */
+    /* margin: 17px 0px; */
+    /* padding: 27px 22px; */
+    font-size: 40px;
+    padding: 25px 30px 25px 30px;
+    position: absolute;
+    /* transform: rotateX(360deg); */
+}
+div.request {
+    margin: 9% 7% 6% 7%;
+    /* padding: 0; */
+    /* top: 5%; */
+    background: linear-gradient(#f22828, #11e4ff3b);
+    /* width: 90%; */
+    /* margin: auto; */
+    height: 150px;
+    text-align: center;
+    /* top: 5%; */
+    border-radius: 18px;
+    /* padding: 1px 0px 0px 0px; */
+    color: white;
+    /* box-shadow: 0px 3px 0px 0px #2196F3; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    animation: requestani 4s steps(12) infinite;
+}
+
+/* animation */
+@keyframes requestani{
+	0%{
+		box-shadow: 0px 3px 0px 0px #e5a0dc;
+	}20%{
+		box-shadow: -3px 0px 0px 0px #be2490;
+	}40%{
+		box-shadow: 0px -2px 0px 0px #70d4b4;
+	}60%{
+		box-shadow: 3px 0px 0px 0px #f30a49;
+	}100%{
+		box-shadow: 0px 3px 0px 0px #f4e022;
+	}
+}
+
+
+h1.request-title {
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* display: flex; */
+    /* top: 0; */
+    /* margin-top: 32px; */
+    padding: 24px 7px;
+}
+button #yesbtn{}
+button.noBtn.yesBtn.submitSec{
+    position: absolute;
+}
+button .noBtn .yesBtn{}
+.switch{
+    /* background: orangered; */
+    margin: 3% 15% 3% 15%;
+    /* margin: auto; */
+    justify-content: center;
+    align-items: center;
+}
+button.noBtn{
+    
+/* padding: 10px 30px; */
+    
+/* margin: 12px; */
+    
+margin: 6px;
+}button.yesBtn{
+    
+left: 25px;
+    
+/* padding: 10px 30px; */
+    
+/* margin: 6px; */
+    
+/* font-size: 15px; */
+}button.submitSec{
+    
+}
+.submitBtn{
+    font-size: 26px;
+    width: 100%;
+    /* border: none; */
+    padding: 2px 0px;
+    border: none;
+    border-radius: 20px;
+    /* border: 1px solid #f1e38a; */
+    background: linear-gradient(to right, #69c181, #ccf186);
+    color: #000000e6;
+    box-shadow: inset -1px -2px 0px 0px #10ff87;
+}
+.submitSec{
+    margin: 5% 15% 3% 15%;
+    /* background: black; */
+}
+.output-r {
+    /* width: 100%; */
+    /* color: red; */
+    font-size: 20px;
+    /*background-color: #352d4dfc; */
+    /* color: #f5f5dc;  */
+    margin: 6% 27% 7% 27%;
+    height: auto;
+    text-align: center;
+    /* padding: 0px 2px 0px 0px; */
+    /* height: 80px; */
+    border-radius: 12px;
+    /* padd: 5%; */
+    /* margin: 17px 0px; */
+    /* padding: 27px 22px; */
+    font-size: 40px;
+    padding: 25px 30px 25px 30px;
+    position: absolute;
+    /* z-index: 11; */
+    /* transform: rotateY(360deg); */
+}
+button#yesbtn {
+    font-size: 24px;
+    padding: 5px 15px;
+    margin: 0px 13px;
+    border-radius: 20px;
+    border: none;
+    border: 2px solid #ffffff;
+    background: linear-gradient(to right, #acb3ae, #21e662);
+}
+
+.checksec{position:absolute;width: 100%;}
+.poppup{
+    width: 90%;
+    height: 90%;
+    background: linear-gradient(#e9dcdc, #08ffa2, #ff253b);
+    align-items: center;
+    justify-content: center;
+    /* position: absolute; */
+    /* display: block; */
+    /* overflow: hidden; */
+    margin: 0 auto;
+    margin-top: 0px;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    display: none;
+}
+button #yesbtn{}
+img.canBtn{
+    width: 30px;
+    height: 30px;
+    background: linear-gradient(#fdf3f3, #FFEB3B);
+    float: inline-end;
+    margin-right: 3px;
+    margin-top: 3px;
+    /* background: transparent; */
+    border-radius: 40%;
+}
+p.congratulation {
+    margin: 71px 30px 30px 30px;
+    font-size: 47px;
+    text-align: center;
+}
+button#cancelbtn {
+    background: linear-gradient(to right, #c1c069, #ff5caa);
+}
+
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+  }
+  
+  @-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+  }
+    
+  @keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+  }
+
+  /* Add Zoom Animation autput*/
+.outputAni {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+  }
+  
+  @-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+  }
+    
+  @keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+  }
+  /*responsive*/
+
+  /* @media (min-width: 475px){
+    .parent {
+        width: 100%;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(to right, #084d68, #009688);
+        margin: auto;
+        margin-top: 5%;
+        position: relative;
+    }
+  } */
+
+  /* @media (min-width: 640px){
+    .parent {
+        width: 100%;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(to right, #084d68, #009688);
+        margin: auto;
+        margin-top: 5%;
+        position: relative;
+    }
+  } */
+  /* @media (min-width: 768px){
+    .parent {
+        width: 100%;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(to right, #084d68, #009688);
+        margin: auto;
+        margin-top: 5%;
+        position: relative;
+    }
+  } */

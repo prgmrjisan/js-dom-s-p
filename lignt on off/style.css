@@ -1,0 +1,45 @@
+.parant{
+	margin: 0 auto;
+	width: 120px;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	margin-top: 130px;
+}
+
+.child{
+	/* margin-top: 50px; */
+	/* margin-left: 400px; */
+	position: absolute;
+	/* align-items: center; */
+	margin-top: 36px;
+}
+.light_off img{position: absolute;transform: rotate(180deg);}
+.light_on img{position: absolute;display: none;transform: rotate(180deg);box-shadow: 0px -140px 119px 73px #ffeb3bcc;background: linear-gradient(rgb(255 240 113) 50%, rgb(255 255 255) 84%);}
+
+.btnOn{}
+.btnOff{}
+button{
+	cursor: pointer;
+	padding: 5px 17px;
+	/* background: black; */
+	/* color: white; */
+	/* margin: 0 auto; */
+	align-items: center;
+	border: none;
+	background: wheat;
+}
+.child_1{
+}
+.active{}
+.drakorwhite{}
+.drakorwhite{
+	
+background: black;
+	
+align-items: center;
+	
+justify-content: center;
+	
+margin: 0 auto;
+}
